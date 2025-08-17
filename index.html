@@ -11,6 +11,7 @@
     
     "
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -63,7 +64,12 @@
       </div>
     </header>
     <main>
-      <section class="hero">
+      <section
+        class="hero"
+        data-aos="fade-up"
+        data-aos-delay="200"
+        data-aos-duration="800"
+      >
         <img
           src="img/IMAGE 2025-08-01 09_23_11.webp"
           alt="Тут мало бути фото"
@@ -71,7 +77,12 @@
         />
       </section>
       <section class="skills" id="skills-id">
-        <div class="skills-wrapper">
+        <div
+          class="skills-wrapper"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="500"
+        >
           <h1 class="skills__title">Ідеальні брови за 3 прості кроки</h1>
           <p class="skills__text">
             Я особисто працюю над кожною деталлю — від моделювання до фарбування
@@ -80,8 +91,20 @@
             мета — щоб ви почувалися впевнено, комфортно і виглядали чудово.
           </p>
         </div>
-        <h2 class="my-skills">Мої навички</h2>
-        <div class="skills-container">
+        <h2
+          class="my-skills"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="500"
+        >
+          Мої навички
+        </h2>
+        <div
+          class="skills-container"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-duration="500"
+        >
           <div class="skills__block1">
             <img
               src="img/01.webp"
@@ -130,10 +153,28 @@
           </div>
         </div>
       </section>
-      <section class="portfolio" id="portfolio-id">
+      <section
+        class="portfolio"
+        id="portfolio-id"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="500"
+      >
         <div class="container">
-          <h2 class="portfolio__title">Мої роботи</h2>
-          <div class="portfolio__imgs">
+          <h2
+            class="portfolio__title"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="500"
+          >
+            Мої роботи
+          </h2>
+          <div
+            class="portfolio__imgs"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="500"
+          >
             <img
               src="img/IMAGE 2025-08-01 16_53_04.webp"
               alt=" Тут мало бути фото"
@@ -151,14 +192,26 @@
             />
           </div>
           <a href="https://www.instagram.com/dolnytska.brows/" target="_blank">
-            <button class="portfolio__btn">Записатись</button>
+            <button
+              class="portfolio__btn"
+              data-aos="fade-up"
+              data-aos-delay="250"
+              data-aos-duration="500"
+            >
+              Записатись
+            </button>
           </a>
         </div>
       </section>
       <section class="about" id="about-id">
         <div class="container">
           <div class="about__wrapper">
-            <div class="about__block1">
+            <div
+              class="about__block1"
+              data-aos="fade-right"
+              data-aos-delay="200"
+              data-aos-duration="500"
+            >
               <img
                 src="img/IMAGE 2025-08-05 16_50_13.webp"
                 alt="Тут мало бути фото"
@@ -184,7 +237,12 @@
                 </ul>
               </div>
             </div>
-            <div class="about__block2">
+            <div
+              class="about__block2"
+              data-aos="fade-left"
+              data-aos-delay="200"
+              data-aos-duration="500"
+            >
               <h2 class="about__title">Про мене</h2>
               <p class="about__description">
                 Мене звати Яна, я — майстриня з моделювання та фарбування брів.
@@ -201,8 +259,19 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <section class="contacts" id="contacts-id">
+    <footer
+      class="footer"
+      data-aos="fade-up"
+      data-aos-delay="200"
+      data-aos-duration="500"
+    >
+      <section
+        class="contacts"
+        id="contacts-id"
+        data-aos="fade-left"
+        data-aos-delay="300"
+        data-aos-duration="800"
+      >
         <img
           src="img/ChatGPT Image 1 серп. 2025 р., 12_47_26.webp"
           alt="Тут мав бути логотип"
@@ -226,5 +295,9 @@
         </nav>
       </section>
     </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
